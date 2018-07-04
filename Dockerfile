@@ -21,5 +21,5 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 RUN apt-get --yes update && \
     apt-get --yes upgrade && \
     apt-get --yes install texlive texlive-latex-recommended texlive-latex-extra texlive-publishers && \
-    apt-get --yes install git ssh
+    apt-get --yes install git ssh gnuplot
 
