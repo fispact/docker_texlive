@@ -21,7 +21,7 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 RUN apt-get --yes update && \
     apt-get --yes upgrade && \
     apt-get --yes install sudo && \
-    sudo DEBIAN_FRONTEND=noninteractive && \
+    DEBIAN_FRONTEND=noninteractive && \
     apt-get install -y tzdata && \
     apt-get --yes install texlive texlive-latex-recommended texlive-latex-extra texlive-publishers && \
     apt-get --yes install git ssh gnuplot
