@@ -24,5 +24,4 @@ RUN apt-get --yes update && \
     DEBIAN_FRONTEND=noninteractive && \
     apt-get install -y tzdata && \
     apt-get --yes install texlive texlive-latex-recommended texlive-latex-extra texlive-publishers texlive-font-utils && \
-    apt-get --yes install git ssh gnuplot
-
+    apt-get --yes install git ssh gnuplot make
